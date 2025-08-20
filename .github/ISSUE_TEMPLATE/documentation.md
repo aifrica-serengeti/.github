@@ -3,8 +3,6 @@ name: "📄 문서 작성/수정 (Documentation)"
 description: "프로젝트 관련 문서를 추가하거나 수정합니다."
 title: "[Docs] "
 labels: ["documentation"]
-assignees: ''
-
 ---
 
 ## 📝 어떤 문서인가요?

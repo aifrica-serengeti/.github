@@ -3,8 +3,6 @@ name: "✨ 기능 추가 (Feature Request)"
 description: "새로운 기능에 대한 아이디어를 제안해주세요."
 title: "[Feature] "
 labels: ["feature"]
-assignees: ''
-
 ---
 
 ## 🤷‍♂️ 어떤 기능인가요?
