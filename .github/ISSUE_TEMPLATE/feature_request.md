@@ -1,6 +1,6 @@
 ---
 name: "✨ 기능 추가 (Feature Request)"
-description: "새로운 기능에 대한 아이디어를 제안해주세요."
+about: "새로운 기능에 대한 아이디어를 제안해주세요."
 title: "[Feature] "
 labels: ["feature"]
 ---

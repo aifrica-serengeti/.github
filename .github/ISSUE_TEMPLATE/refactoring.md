@@ -1,6 +1,6 @@
 ---
 name: "🛠️ 리펙토링 (Refactoring)"
-description: "성능 개선, 코드 가독성 향상 등을 위한 리펙토링 작업을 제안합니다."
+about: "성능 개선, 코드 가독성 향상 등을 위한 리펙토링 작업을 제안합니다."
 title: "[Refactor] "
 labels: ["refactoring"]
 ---

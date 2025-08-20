@@ -1,6 +1,6 @@
 ---
 name: "🐛 버그 리포트 (Bug Report)"
-description: "작동하지 않는 기능이나 문제 상황을 알려주세요."
+about: "작동하지 않는 기능이나 문제 상황을 알려주세요."
 title: "[Bug] "
 labels: ["bug"]
 ---
