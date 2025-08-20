@@ -4,14 +4,14 @@ blank_issues_enabled: false  # '빈 이슈' 생성을 막고 템플릿 사용을
 # 표시할 이슈 템플릿 목록
 contact_links:
   - name: "✨ 새로운 기능 제안"
-    url: .github/ISSUE_TEMPLATE/feature_request.md
+    url: https://github.com/aifrica-serengeti/.github/.github/ISSUE_TEMPLATE/feature_request.md
     about: "새로운 기능이나 개선 아이디어를 제안해주세요."
   - name: "🐛 버그 리포트"
-    url: .github/ISSUE_TEMPLATE/bug_report.md
+    url: https://github.com/aifrica-serengeti/.github/.github/ISSUE_TEMPLATE/bug_report.md
     about: "문제가 발생했나요? 여기에 알려주세요."
   - name: "🛠️ 코드 리펙토링"
-    url: .github/ISSUE_TEMPLATE/refactoring.md
+    url: https://github.com/aifrica-serengeti/.github/.github/ISSUE_TEMPLATE/refactoring.md
     about: "코드 품질 개선, 기술 부채 해결 등을 위한 작업을 제안합니다."
   - name: "📄 문서 작업"
-    url: .github/ISSUE_TEMPLATE/documentation.md
+    url: https://github.com/aifrica-serengeti/.github/.github/ISSUE_TEMPLATE/documentation.md
     about: "README, Wiki 등 문서 관련 작업을 제안합니다."
