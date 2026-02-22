@@ -14,7 +14,7 @@ body:
     attributes:
       label: 버그 개요
       description: 어떤 버그를 수정하는지 간단히 설명해주세요
-      placeholder: 예: 로그인 버튼 클릭 시 반응 없는 문제 수정
+      placeholder: "예: 로그인 버튼 클릭 시 반응 없는 문제 수정"
     validations:
       required: true
 
@@ -36,14 +36,14 @@ body:
     attributes:
       label: 원인 분석
       description: 버그의 원인을 분석한 내용을 작성해주세요
-      placeholder: onClick 핸들러가 바인딩되지 않음
+      placeholder: "onClick 핸들러가 바인딩되지 않음"
 
   - type: textarea
     id: solution
     attributes:
       label: 해결 방안
       description: 어떻게 수정할지 계획을 작성해주세요
-      placeholder: 이벤트 핸들러를 useEffect로 바인딩
+      placeholder: "이벤트 핸들러를 useEffect로 바인딩"
 
   - type: textarea
     id: tasks
