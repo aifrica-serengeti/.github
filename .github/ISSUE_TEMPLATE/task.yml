@@ -1,0 +1,61 @@
+name: ✅ 태스크
+description: 마일스톤에 연결되는 하위 작업을 정의합니다
+title: "[Task] "
+labels: ["task"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 마일스톤 태스크
+        이 템플릿은 특정 마일스톤에 속하는 개별 작업을 정의할 때 사용합니다.
+
+  - type: input
+    id: milestone
+    attributes:
+      label: 마일스톤 이슈번호
+      description: 이 태스크가 속한 마일스톤의 이슈번호를 입력해주세요
+      placeholder: "예: 123"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 태스크 설명
+      description: 이 태스크가 무엇을 하는지 간단히 설명해주세요
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: 완료 기준
+      description: 태스크 완료 여부를 확인하는 기준을 작성해주세요
+      placeholder: |
+        - 로그인 폼 렌더링 완료
+        - 유효성 검사 로직 동작
+
+  - type: textarea
+    id: subtasks
+    attributes:
+      label: 하위 작업 목록
+      description: 태스크를 완료하기 위한 세부 작업을 작성해주세요
+      placeholder: |
+        - [ ] 컴포넌트 구조 설계
+        - [ ] 스타일링 적용
+        - [ ] 테스트 코드 작성
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 우선순위
+      options:
+        - 높음 (High)
+        - 중간 (Medium)
+        - 낮음 (Low)
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 추가 참고사항
