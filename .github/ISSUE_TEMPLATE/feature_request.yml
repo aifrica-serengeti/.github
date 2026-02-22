@@ -1,0 +1,49 @@
+name: ✨ 기능 구현
+description: 새로운 기능 구현 작업을 정의합니다
+title: "[Feature] "
+labels: ["feature"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 기능 구현 이슈
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: 기능 개요
+      description: 구현할 기능을 간단히 설명해주세요
+      placeholder: 예: 소셜 로그인 기능 (Google, Kakao)
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: 완료 기준 (Acceptance Criteria)
+      description: 기능이 완료되었음을 확인하는 기준을 작성해주세요
+      placeholder: |
+        - Google 로그인 버튼 클릭 시 OAuth 창이 열림
+        - 로그인 성공 후 메인 페이지로 리다이렉트
+        - 로그인 실패 시 에러 메시지 표시
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: 작업 목록
+      description: 구현을 위한 태스크를 작성해주세요
+      placeholder: |
+        - [ ] OAuth API 키 발급
+        - [ ] 소셜 로그인 라이브러리 설치
+        - [ ] 로그인 UI 구현
+        - [ ] 백엔드 API 연동
+        - [ ] 테스트 코드 작성
+
+  - type: textarea
+    id: references
+    attributes:
+      label: 참고 자료
+      description: 참고할 문서나 링크가 있다면 작성해주세요
