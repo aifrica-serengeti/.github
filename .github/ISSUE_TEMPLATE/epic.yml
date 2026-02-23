@@ -1,0 +1,26 @@
+name: 🎯 에픽
+description: 여러 개의 작업을 포함하는 큰 단위의 기능을 정의합니다
+title: "[Epic] "
+type: epic
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 에픽
+        에픽은 여러 개의 태스크를 포함하는 큰 작업 단위입니다. 하위 태스크들은 이 에픽에 연결하세요.
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: 에픽 목표
+      description: 이 에픽의 핵심 목표를 간단히 설명해주세요
+      placeholder: "예: 사용자 인증 시스템 구축"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 상세 설명
+      description: 에픽에 대한 추가 정보를 입력해주세요

@@ -1,20 +1,20 @@
 name: ✅ 태스크
-description: 마일스톤에 연결되는 하위 작업을 정의합니다
+description: 에픽에 연결되는 하위 작업을 정의합니다
 title: "[Task] "
-labels: ["task"]
+type: task
 
 body:
   - type: markdown
     attributes:
       value: |
-        ## 마일스톤 태스크
-        이 템플릿은 특정 마일스톤에 속하는 개별 작업을 정의할 때 사용합니다.
+        ## 에픽 태스크
+        이 템플릿은 특정 에픽에 속하는 개별 작업을 정의할 때 사용합니다.
 
   - type: input
-    id: milestone
+    id: epic
     attributes:
-      label: 마일스톤 이슈번호
-      description: 이 태스크가 속한 마일스톤의 이슈번호를 입력해주세요
+      label: 에픽 이슈번호
+      description: 이 태스크가 속한 에픽의 이슈번호를 입력해주세요
       placeholder: "예: 123"
     validations:
       required: true
