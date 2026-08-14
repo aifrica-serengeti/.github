@@ -11,27 +11,26 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Add a description
+      label: 문제 상황
       value: |
-        ## 문제 상황
         발생한 오류 설명
 
-        ## 재현 방법
+        ### 재현 방법
         1.
         2.
         3.
 
-        ## 기대 동작
+        ### 기대 동작
         정상적으로 동작해야 하는 방식
 
-        ## 원인 (선택)
+        ### 원인 (선택)
         파악했다면 작성
 
-        ## 작업 내용
+        ### 작업 내용
         - [ ] 작업 항목
         - [ ] 작업 항목
 
-        ## 환경 (선택)
+        ### 환경 (선택)
         - 버전 / 배포 환경 / 고객사
     validations:
       required: true

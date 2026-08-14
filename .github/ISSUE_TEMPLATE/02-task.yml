@@ -11,20 +11,19 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Add a description
+      label: 상위 이슈
       value: |
-        ## 상위 이슈
         #
 
-        ## 작업 내용
+        ### 작업 내용
         - 체크리스트가 아니어도 됨
         - [ ] 작업 항목
         - [ ] 작업 항목
 
-        ## 완료 기준
+        ### 완료 기준
         - 태스크 완료 여부를 확인하는 기준
 
-        ## 참고 (선택)
+        ### 참고 (선택)
         - 참조 링크 / 설계 문서 / 스크린샷
     validations:
       required: true

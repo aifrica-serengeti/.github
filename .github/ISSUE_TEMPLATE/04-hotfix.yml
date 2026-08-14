@@ -11,24 +11,23 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Add a description
+      label: 문제 상황
       value: |
-        ## 문제 상황
         지금 무엇이 깨져 있는가
 
-        ## 영향 범위
+        ### 영향 범위
         - 영향받는 환경 / 고객사 / 사용자 수
         - 언제부터 발생했는가
 
-        ## 긴급한 이유
+        ### 긴급한 이유
         정규 릴리스를 기다릴 수 없는 근거
 
-        ## 조치
+        ### 조치
         - [ ] 임시 조치 (있다면)
         - [ ] 근본 수정
         - [ ] 배포 확인
 
-        ## 후속 (선택)
+        ### 후속 (선택)
         - 재발 방지를 위해 따로 만들 이슈
     validations:
       required: true

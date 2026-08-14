@@ -11,22 +11,21 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Add a description
+      label: 목표
       value: |
-        ## 목표
         이 에픽으로 무엇을 달성하는가
 
-        ## 배경
+        ### 배경
         왜 지금 필요한가
 
-        ## 하위 작업
+        ### 하위 작업
         - [ ] #
         - [ ] #
 
-        ## 완료 기준
+        ### 완료 기준
         - 이 에픽이 끝났다고 판단하는 기준
 
-        ## 참고 (선택)
+        ### 참고 (선택)
         - 관련 이슈 / 설계 문서 / 외부 링크
     validations:
       required: true

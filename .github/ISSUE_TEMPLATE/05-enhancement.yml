@@ -11,21 +11,20 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Add a description
+      label: 개선 대상
       value: |
-        ## 개선 대상
         지금 어떻게 동작하는가
 
-        ## 문제점
+        ### 문제점
         무엇이 불편하거나 부족한가
 
-        ## 개선 방향
+        ### 개선 방향
         어떻게 바뀌어야 하는가
 
-        ## 기대 효과
+        ### 기대 효과
         - 사용성 / 성능 / 운영 부담 등 어떤 축이 좋아지는가
 
-        ## 작업 내용
+        ### 작업 내용
         - [ ] 작업 항목
         - [ ] 작업 항목
     validations:
