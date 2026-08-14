@@ -1,0 +1,37 @@
+name: "🐞 Bugfix"
+description: "예기치 않은 오류나 잘못된 동작을 수정하는 작업"
+type: Bugfix
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```Bugfix``` 예기치 않은 오류나 잘못된 동작을 수정하는 작업
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
+      value: |
+        ## 문제 상황
+        발생한 오류 설명
+
+        ## 재현 방법
+        1.
+        2.
+        3.
+
+        ## 기대 동작
+        정상적으로 동작해야 하는 방식
+
+        ## 원인 (선택)
+        파악했다면 작성
+
+        ## 작업 내용
+        - [ ] 작업 항목
+        - [ ] 작업 항목
+
+        ## 환경 (선택)
+        - 버전 / 배포 환경 / 고객사
+    validations:
+      required: true

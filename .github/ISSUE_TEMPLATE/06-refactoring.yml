@@ -1,0 +1,35 @@
+name: "♻️ Refactoring"
+description: "외부 동작이나 기능에는 영향을 주지 않으면서 내부 구조나 가독성을 개선하는 코드 변경"
+type: Refactoring
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```Refactoring``` 외부 동작 불변, 내부 구조·가독성 개선
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
+      value: |
+        ## 대상
+        어떤 코드/모듈을 리팩토링하는가
+
+        ## 현재 문제
+        - 왜 지금 구조가 문제인가
+
+        ## 개선 방안
+        어떤 구조로 바꾸는가
+
+        ## 동작 불변 보장
+        외부 동작이 바뀌지 않음을 어떻게 확인하는가 (기존 테스트 / 회귀 테스트)
+
+        ## 영향 범위
+        - 함께 수정이 필요한 모듈 / 리포
+
+        ## 작업 내용
+        - [ ] 작업 항목
+        - [ ] 작업 항목
+    validations:
+      required: true

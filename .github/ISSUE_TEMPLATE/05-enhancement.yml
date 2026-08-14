@@ -1,0 +1,32 @@
+name: "⚡ Enhancement"
+description: "기존 기능에 대한 계획된 개선. 핵심 기능을 새로 추가하지 않으면서 가치나 사용성을 향상"
+type: Enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```Enhancement``` 기존 기능의 계획된 개선 (새 기능 추가 아님)
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
+      value: |
+        ## 개선 대상
+        지금 어떻게 동작하는가
+
+        ## 문제점
+        무엇이 불편하거나 부족한가
+
+        ## 개선 방향
+        어떻게 바뀌어야 하는가
+
+        ## 기대 효과
+        - 사용성 / 성능 / 운영 부담 등 어떤 축이 좋아지는가
+
+        ## 작업 내용
+        - [ ] 작업 항목
+        - [ ] 작업 항목
+    validations:
+      required: true

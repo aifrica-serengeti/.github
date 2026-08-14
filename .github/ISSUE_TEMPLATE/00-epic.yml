@@ -1,0 +1,32 @@
+name: "🎯 Epic"
+description: "여러 Feature/Task로 쪼개지는 큰 작업 단위. 리포를 가로지르는 단위도 포함"
+type: Epic
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```Epic``` 여러 Feature/Task로 쪼개지는 큰 작업 단위
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
+      value: |
+        ## 목표
+        이 에픽으로 무엇을 달성하는가
+
+        ## 배경
+        왜 지금 필요한가
+
+        ## 하위 작업
+        - [ ] #
+        - [ ] #
+
+        ## 완료 기준
+        - 이 에픽이 끝났다고 판단하는 기준
+
+        ## 참고 (선택)
+        - 관련 이슈 / 설계 문서 / 외부 링크
+    validations:
+      required: true

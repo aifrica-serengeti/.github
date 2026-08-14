@@ -1,0 +1,27 @@
+name: "🧹 Chore"
+description: "문서 수정, 설정 변경, 의존성 업데이트, 구조 정리 등 기능 변경 없는 유지보수 작업"
+type: Chore
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```Chore``` 기능 변경 없는 유지보수·운영 작업 (문서·설정·의존성·구조 정리)
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
+      value: |
+        ## 작업 내용
+        무엇을 정리/변경하는가
+        - [ ] 작업 항목
+        - [ ] 작업 항목
+
+        ## 배경 (선택)
+        왜 지금 필요한가
+
+        ## 영향 범위 (선택)
+        - 빌드 / 배포 / 다른 리포에 미치는 영향
+    validations:
+      required: true

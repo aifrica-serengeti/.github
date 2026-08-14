@@ -1,0 +1,30 @@
+name: "🧩 Feature"
+description: "새로운 기능 추가 또는 제품 가치에 직접적인 영향을 주는 기능 개발"
+type: Feature
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```Feature``` 새로운 기능 추가 또는 제품 가치에 직접적인 영향을 주는 기능 개발
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
+      value: |
+        ## 기능 개요
+        이 작업의 목적 또는 배경
+
+        ## 완료 기준
+        - 기능이 완료되었음을 확인하는 기준
+
+        ## 작업 내용
+        - 체크리스트가 아니어도 됨. 하위 태스크가 있다면 생략 가능
+        - [ ] 작업 항목
+        - [ ] 작업 항목
+
+        ## 참고 (선택)
+        - 상위 에픽 / 참조 링크 / 설계 문서 / 스크린샷
+    validations:
+      required: true

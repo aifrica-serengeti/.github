@@ -1,0 +1,29 @@
+name: "🧪 Test"
+description: "테스트 코드 작성, 수정, 수행 등 테스트와 관련된 작업"
+type: Test
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ```Test``` 테스트 코드 작성·수정·수행
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Add a description
+      value: |
+        ## 테스트 대상
+        어떤 기능/모듈에 대한 테스트인가
+
+        ## 목적
+        무엇을 보장하려는가 (회귀 방지 / 커버리지 / 성능 기준 등)
+
+        ## 작업 내용
+        - [ ] 작업 항목
+        - [ ] 작업 항목
+
+        ## 참고 (선택)
+        - 관련 이슈 / 기존 테스트 위치
+    validations:
+      required: true
